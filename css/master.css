@@ -1,0 +1,28 @@
+body {
+  padding-top: 70px;
+  background: #FBFBFB;
+  /*font-family: 'Ubuntu', sans-serif;*/
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+h1 {
+  font-size: 6rem;
+}
+h1, h2  {
+  font-family: 'Oswald', sans-serif;
+  color: #C00000;
+}
+.social {
+  margin: 30px 0;
+}
+.social a {
+  padding-right: 20px;
+}
+p::first-letter {
+  font-weight: bold;
+}
+.navbar-inverse .navbar-brand:hover {
+  color:#C00000;
+}
