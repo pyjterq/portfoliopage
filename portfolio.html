@@ -12,7 +12,7 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
         <header class="container">
           <div class="navbar-header">
-            <a href="/" class="navbar-brand">Piotr Marcinów</a>
+            <a href="/" class="navbar-brand">Discreet Logic</a>
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
               <span class="sr-only">Toogle navigation</span>
                 <span class="icon-bar"></span>
@@ -31,7 +31,10 @@
   <div class="container">
       <div class="row text-center">
         <div class="col-md-12">
-          <h1> Discreet Logic</h1>
+          <h1>
+            <span>Discreet Logic</span>
+            <small>(A ∨ ¬A)</small>
+          </h1>
             <div class="social"   id="about">
               <a href="https://github.com/pyjterq">GitHub</a>
               <a href="https://www.linkedin.com/in/piotr-marcin%C3%B3w-24aa65113">linkedIn</a>
@@ -47,13 +50,14 @@
       </div>
       <div class="col-md-6 col-md-offset-1">
         <p class="lead">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        My name is Peter and I like to help others. I like to provide clean and easy to understand websites and code your clients will love.  As an author I know that content is king and design should help to spreed your massage. I focus on Functional Programming and  Information Architecture. I’m huge fan  of open source and Buddhist philosophy.
         </p>
       </div>
     </div>
+    <div  id="portfolio"></div>
   <div class="row">
     <div class="col-md-12">
-        <h2 id="portfolio">Portfolio</h2>
+        <h2>Portfolio</h2>
     </div>
     <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
@@ -73,6 +77,24 @@
     </div>
   </div>
   </div>
+  <div class="row">
+    <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <a href="http://joginka.pl"><img class="img-responsive" src="./img/joginkaPL.jpg" alt="Joginka.pl Website"></a>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <a href="http://pbwitczak.pl"><img class="img-responsive" src="./img/pbwitczak.jpg" alt="PbWitczak - company site"></a>
+
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <a href="http://medytacja.szkola.pl"><img class="img-responsive" src="./img/szkolamedytacj.jpg" alt="Meditation School"></a>
+    </div>
+  </div>
+  </div>
   </div>
   <div class="footer">
     <div class="container">
@@ -80,19 +102,49 @@
         <div class="col-md-12">
             <h2  id="contact">Contact</h2>
         </div>
-        <div class="col-md-6">
-          <a href="mailto:kontakt?subject=feedback">email me</a>
-        </div>
-        <div class="col-md-6">
+        <div class="col-md-10 col-md-offset-1 col-xs-12">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            If you want to contact me just send me email:
+            <a href="mailto:pyjter@protonmail.com">pyjter@protonmail.com</a>
+          </p>
+          <p>
+            Or use contact form:
           </p>
       </div>
     </div>
+    <div class="row">
+		<form role="form" id="contact-form" class="contact-form">
+                    <div class="row">
+                		<div class="col-md-5 col-md-offset-1">
+                  		<div class="form-group">
+                            <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="Name">
+                  		</div>
+                  	</div>
+                    	<div class="col-md-5">
+                  		<div class="form-group">
+                            <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="E-mail">
+                  		</div>
+                  	</div>
+                  	</div>
+                  	<div class="row">
+                  		<div class="col-md-10 col-md-offset-1">
+                  		<div class="form-group">
+                            <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Message"></textarea>
+                  		</div>
+                  	</div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                  <button type="submit" class="btn main-btn pull-right">Send a message</button>
+                  </div>
+                  </div>
+                </form>
+	</div>
   </div>
 </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js?body=1"></script>
+    <script src="js/contact-form.js"></script>
+
   </body>
 </html>

@@ -26,3 +26,15 @@ p::first-letter {
 .navbar-inverse .navbar-brand:hover {
   color:#C00000;
 }
+/*cotact from*/
+.contact-form{ margin:15px 0;}
+.contact-form .textarea{ min-height:220px; resize:none;}
+.form-control{ box-shadow:none; border-color:#eee; height:49px;}
+.form-control:focus{ box-shadow:none; border-color:#C00000;}
+.form-control-feedback{ line-height:50px;}
+.main-btn{ background:#C00000; border-color:#C00000; color:#fff;}
+.main-btn:hover{ background:#860000;color:#fff;}
+.form-control-feedback {
+line-height: 50px;
+top: 0px;
+}
